@@ -18,7 +18,8 @@ if [ -z "$CODE" ]; then
     exit 1
 fi
 
-echo "Writing code $CODE to .env"
+echo "Writing code to .env..."
 sed -i "s/^AUTH_CODE=.*/AUTH_CODE=$CODE/" ".env"
+echo "Code written to .env"
 
 return 0
