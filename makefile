@@ -1,4 +1,5 @@
 #Makefile to run all scripts at once
+.SILENT:
 
 queue: authorize
 	zsh queue.zsh
