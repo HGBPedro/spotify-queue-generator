@@ -22,7 +22,7 @@ The motivation behind this project arose from the frustration of experiencing li
 - **Easy to Use**: Simple script with minimal configuration required.
 - **Customizable**: Easily adapt the script to work with different playlists or to modify the randomization logic.
 
-##Usage
+## Usage
 - Copy the ```.env.example``` file as ```.env```
 - Fill the ```.env``` file with your data from spotify dashboard and playlist info.
 - Run the script in the makefile
@@ -30,10 +30,10 @@ The motivation behind this project arose from the frustration of experiencing li
     make queue
   ```
 
-##License
+## License
 This project is licensed under the MIT License.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request. Whether it's bug fixes, new features, or documentation improvements, your help is appreciated.
 
 ##Acknowledgments
